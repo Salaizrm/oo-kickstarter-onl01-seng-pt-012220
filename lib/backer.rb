@@ -11,9 +11,7 @@ class Backer
   end
   
   def back_project(title)
-    
-    
-    
+    Project.title.select {|titles| titles}
   end
 
 end
